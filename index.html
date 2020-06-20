@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trevor Philips's Garage & Car rental</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <style>
+        body {
+          background-image: url("img/backg.jpg");
+          background-position: center
+        }
+        </style>
+
+    <h1 class="welcome">
+        Welcome Trevor Philips's Garage & Car rental!
+    </h1>
+
+        <img src="img/enter.png" alt="Trevor-Philips" class="center">
+    </a>
+    <a target="blank" href="https://en.wikipedia.org/wiki/Trevor_Philips">   
+    <img id="industries" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="img/industries.jpg" alt="industries" width="150">
+    </a>
+<script>
+function bigImg(x) {
+  x.style.height = "240px";
+  x.style.width = "265px";
+}
+
+function normalImg(x) {
+  x.style.height = "130px";
+  x.style.width = "150px";
+}
+</script>
+    <div style = "position:relative; left:350px; top:0px;">
+        <a href="garage.html" class="button button2">Service</a>
+    </div>
+
+        <div style = "position:relative; left:600px; top:0px; width: 220px;">
+            <a href="rental.html" class="button disabled">Rental</a>
+        </div>
+
+    <div style = "position:relative; left:830px; top:0px; width: 220px;">
+        <a href="about.html" class="button disabled">About</a>
+    </div>
+
+    <div style = "position:relative; left:1050px; top:0px; width: 220px;">
+        <a href="customer.html" class="button disabled">Customer</a>
+    </div>
+
+    <audio id="music" controls loop autoplay>
+        <source src="/music/welcome.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+</body>
+</html>

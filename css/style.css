@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "rough";
+    src: url("font/Rough rough.otf") format("opentype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "vintageone";
+    src: url("font/VintageOne.ttf") ;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "bullp";
+    src: url("font/Bullpen3D.ttf") ;
+    font-weight: 500;
+}
+
+.welcome {
+    color: white;
+    text-shadow: 3px 3px black;
+    font-family: "bullp";
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 15px;
+}
+
+img {
+    box-shadow: 0px 0px 20px rgb(236, 171, 20);
+    margin: 5px;
+}
+
+#industries {
+    position: fixed;
+    bottom: 55px;
+    left: 10px;
+}
+
+#music {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+h2 {
+    color: rgba(42, 144, 50, 0.671);
+    font-family: "vintageone";
+    font-size: 50px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+body {
+    background-image: url('img/backg.jpg');
+    background-position: center;
+  }
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: "vintageone";
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    float: none;
+  }
+
+  .button1 {
+    box-shadow: 0 8px 16px 0 rgba(236,171,20,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(236,171,20,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
